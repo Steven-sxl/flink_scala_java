@@ -12,7 +12,7 @@ flink scala java 整合
 
   按每个窗口聚合，输出每个窗口中点击量前N名的商品
 
-#小项目实现：每个域名每分钟的访问量
+# 小项目实现：每个域名每分钟的访问量
   ProjectKafkaProducer.java 
     项目生产者，mock数据
     
