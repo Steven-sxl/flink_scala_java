@@ -11,3 +11,10 @@ flink scala java 整合
   按一小时的窗口大小，每5分钟统计一次，做滑动窗口聚合（Sliding Window）
 
   按每个窗口聚合，输出每个窗口中点击量前N名的商品
+
+#小项目实现：每个域名每分钟的访问量
+  ProjectKafkaProducer.java 
+    项目生产者，mock数据
+    
+  LogAnalysis.scala
+    flink 处理数据 到ES中，然后在kibana 中展示
